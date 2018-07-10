@@ -1,5 +1,5 @@
-const version = "0.6.11";
-const cacheName = `airhorner-${version}`;
+const version = "0.1.0";
+const cacheName = `nycsubwayautomatedanouncements-${version}`;
 self.addEventListener('install', e => {
   const timeStamp = Date.now();
   e.waitUntil(
