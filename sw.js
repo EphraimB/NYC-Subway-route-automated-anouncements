@@ -1,14 +1,14 @@
 const version = "0.1.0";
-const cacheName = 'nycsubwayautomatedanouncements-${version}';
+const cacheName = `nycsubwayautomatedanouncements-${version}`;
 self.addEventListener('install', e => {
   const timeStamp = Date.now();
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/css/style.css',
-        '/js/script.js'
+        `/`,
+        `/index.html`,
+        `/css/style.css`,
+        `/js/script.js`
       ])
        .then(() => self.skipWaiting());
  })
