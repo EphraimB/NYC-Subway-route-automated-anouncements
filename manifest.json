@@ -1,0 +1,9 @@
+{
+  "short_name": "Subway announcements",
+  "name": "NYC Subway automated announcements",
+  "start_url": "/NYC-Subway-route-automated-anouncements/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/NYC-Subway-route-automated-anouncements/",
+  "theme_color": "#3367D6"
+}
