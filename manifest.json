@@ -6,6 +6,11 @@
       "src": "/images/icons-192.gif",
       "type": "image/gif",
       "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.gif",
+      "type": "image/gif",
+      "sizes": "512x512"
     }
   ],
   "start_url": "/NYC-Subway-route-automated-anouncements/?source=pwa",
