@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/NYC-Subway-route-automated-anouncements/?source=pwa",
+  "start_url": "https://ephraimb.github.io/NYC-Subway-route-automated-anouncements/?source=pwa",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/NYC-Subway-route-automated-anouncements/",
