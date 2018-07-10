@@ -8,7 +8,7 @@ var urlsToCache = [
   '/js/script.js'
 ];
 
-self.addEventListener('install', function(event) {
+
   // Perform install steps
   event.waitUntil(
     caches.open(CACHE_NAME)
@@ -17,5 +17,4 @@ self.addEventListener('install', function(event) {
         return cache.addAll(urlsToCache);
       })
   );
-});
 });
