@@ -1,6 +1,3 @@
-self.addEventListener('install', function(event) {
-  // Perform install steps
-
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
@@ -31,5 +28,4 @@ self.addEventListener('fetch', function(event) {
       }
     )
   );
-});
 });
